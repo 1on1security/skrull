@@ -1,4 +1,4 @@
-./skrull.bash 45.66.231.226
+<pre>./skrull.bash 45.66.231.226
 
 <b>ipInfo.io Report:</b>
 IP: 45.66.231.226
@@ -168,3 +168,4 @@ Last Seen: 2024-09-29 21:09:13
 Source: AbuseIPDB
 Labels: compromised, malicious-activity
 References: 1
+</pre>

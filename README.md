@@ -20,18 +20,28 @@ Necessity being the mother of invention, I needed a tool that could query some o
 For the most part I've tried to make this as simple as:
 
 1. Clone the repo:
-    - Clone instructions will go here.
+    - mkdir skrull && cd skrull
+    - git clone https://github.com/1on1security/skrull.git
+
 2. Sign up for an API key at each of the services.
     - You'll need to visit each of the services above and sign up for an API key.
+
 3. Store those keys in the appropriate file.
     - The default anticipated location is **~/KEYS/auth.txt** and can be changed in the vars file.
+
+>    The format of this file is (**no quotes!**):<br>
+    abuse_key=0xxxx<br>
+    criminal_ip_key=0xxxx<br>
+    ipinfo_key=0xxxx<br>
+    maltiverse_key=0xxxx<br>
+    virus_total_key=0xxxx
 4. Install and initialize shodan
     - pip install shodan
     - pip init [*Your api key here*]
 
 ## Usage: skrull.bash [*ipaddress*]
 
-[Sample Report CLI](sample_report.txt)
+[Sample Report CLI](sample_report.md)
 
 [Sample Report HTML](skrull_sample_html.png)
 
