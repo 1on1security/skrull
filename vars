@@ -1,0 +1,8 @@
+reportPath=/data/code/prod/1ON1SECURITY_APPS/skrull
+auth_file=~/KEYS/skrull_auth.txt
+
+abuse_key=$(grep 'abuse_key=' $auth_file | sed 's/^.*=//')
+criminal_ip_key=$(grep 'criminal_ip_key=' $auth_file | sed 's/^.*=//')
+ipinfo_key=$(grep 'ipinfo_key=' $auth_file | sed 's/^.*=//')
+maltiverse_key=$(grep 'maltiverse_key=' $auth_file | sed 's/^.*=//')
+virus_total_key=$(grep 'virus_total_key=' $auth_file |  sed 's/^.*=//')
