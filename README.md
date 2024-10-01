@@ -45,7 +45,7 @@ For the most part I've tried to make this as simple as:
 
 [Sample Report CLI](sample_report.md)
 
-[Sample Report HTML](sample_report.html)
+[Sample Report HTML](https://1on1security.github.io/skrull/sample_report.html)
 
 ## What's here
 
