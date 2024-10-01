@@ -1,6 +1,6 @@
 #!/bin/bash
 ipaddress=$1
-source /data/code/prod/1ON1SECURITY_APPS/skrull
+source /data/code/prod/1ON1SECURITY_APPS/skrull/vars
 
 # The -G option will convert form parameters (-d options) into query parameters.
 # The CHECK endpoint is a GET request.
