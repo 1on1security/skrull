@@ -16,13 +16,16 @@ Necessity being the mother of invention, I needed a tool that could query some o
 - <https://shodan.io/>
 - <https://www.zoomeye.hk/>
 
+Services offering a public API are relatively easy to add to the pile.
+
+<img style="float: center;" src="skrullHtml.png">
+
 ---
 
 For the most part I've tried to make this as simple as:
 
 1. Clone the repo:
-    - mkdir skrull && cd skrull
-    - git clone <https://github.com/1on1security/skrull.git>
+    - git clone https://github.com/1on1security/skrull.git
 
 2. Sign up for an API key at each of the services.
     - You'll need to visit each of the services above and sign up for an API key.
@@ -41,23 +44,49 @@ For the most part I've tried to make this as simple as:
     - pip install shodan
     - pip init [*Your api key here*]
 
-## Usage: skrull.bash [*ipaddress*]
+## CLI Usage: skrull.bash [*ipaddress*]
 
 [Sample Report CLI](sample_report.md)
 
 [Sample Report HTML](https://1on1security.github.io/skrull/sample_report.html)
 
-## What's here
+## What's here:
 
 ```
-├── abuseipdb.bash          - Bash: Abuseip script
+.
+├── abuseipdb.bash          - Bash: AbuseIP script
+├── anonymous.jpg           - Image: anonymous
 ├── criminalIpReport.py     - Python: CriminalIP Host Report
 ├── criminalMalReport.py    - Python: CriminalIP Malware Report for IP
-├── ipinfo.bash             - Bash: Host Report
+├── ipinfo.bash             - Bash: ipInfo Host Report
+├── krull.png               - Image: krull
 ├── maltiverse.bash         - Bash: Maltiverse report for a given IP
-├── README.md
+├── README.md               - This file
+├── sample_report.html      - Sample HTML report
+├── sample_report.md        - Sample Text report
 ├── shodan                  - Python: Shodan client
 ├── skrull.bash             - Bash: **"The Sauce"** combining all reports
+├── skrullHtml.png          - Image: html sample report preview
 ├── vars                    - Bash: Variables referenced by scripts in project
-└── vt                      - vt: ELF 64-bit LSB executable, x86-64
+├── vt                      - vt: ELF 64-bit LSB executable, x86-64
+└── zoomeye.bash            - Bash: zoomeye Report
+```
+
+---
+
+### This is great!  How do I get that pretty HTML reporting?
+I've developed and tested on Ubuntu 24.04 with ngnix server.  You can pull the repo to your home directory, copy two files, and modify /etc/sudoers (with visudo) and you'll be on your way for the most part.
+
+```
+cd
+git clone https://github.com/1on1security/skrull.git
+cp skrull/skrull.php skrull/anonymous.jpg /var/www/html/
+```
+
+/etc/sudoers entries allowing www-data user to execute bash scripts.<br>
+(sudo visudo)
+
+```
+www-data ALL=(ALL:ALL) NOPASSWD: /home/YOURUSERNAME/skrull/skrull.bash
+www-data ALL=(ALL:ALL) NOPASSWD: /home/YOURUSERNAME/skrull/abuseipdb.bash
 ```
