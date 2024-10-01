@@ -43,7 +43,7 @@ For the most part I've tried to make this as simple as:
 
 [Sample Report CLI](sample_report.md)
 
-[Sample Report HTML](skrull_sample_html.png)
+[Sample Report HTML](skrull.mp4)
 
 ## What's here:
 ```
