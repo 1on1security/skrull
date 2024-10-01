@@ -46,7 +46,7 @@ For the most part I've tried to make this as simple as:
 
 ## CLI Usage: skrull.bash [*ipaddress*]
 
-[Sample Report CLI](sample_report.md)
+[Sample Report CLI](sample_report.txt)
 
 [Sample Report HTML](https://1on1security.github.io/skrull/sample_report.html)
 
