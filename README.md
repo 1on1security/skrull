@@ -45,7 +45,7 @@ For the most part I've tried to make this as simple as:
 
 [Sample Report CLI](sample_report.md)
 
-[Sample Report HTML](skrull.mp4)
+[Sample Report HTML](sample_report.html)
 
 ## What's here
 
