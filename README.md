@@ -16,6 +16,7 @@ Necessity being the mother of invention, I needed a tool that could query some o
 - <https://www.virustotal.com/>
 - <https://shodan.io/>
 - <https://www.zoomeye.hk/>
+- <https://ip2location.io>
 
 Services offering a public API are relatively easy to add to the pile.
 
