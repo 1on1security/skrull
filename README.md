@@ -1,8 +1,9 @@
-## Skrull Contents
+## Skrull
+<https://github.com/1on1security/skrull>
 
 <img style="float: right;" src="krull.png">
 
-**SKRULL**
+**SKRULL** Verb, to pass an IP address through several informational lookup/reporting services.
 
 I honestly don't know when and where the term "skrull" entered my brain. I don't think the Marvel Cinematic Universe is nearly as responsible as the movie [Krull](https://www.imdb.com/title/tt0085811/?ref_=ext_shr_lnk) back in the day. Krull is a 1983 science fantasy swashbuckler film directed by Peter Yates and written by Stanford Sherman. It follows Prince Colwyn and a fellowship of companions who set out to rescue his bride, Princess Lyssa, from a fortress of alien invaders who have arrived on their home planet. [wikipedia](https://en.wikipedia.org/wiki/Krull_(film))
 
